@@ -174,7 +174,7 @@ main{
   padding-inline: 1em;
   left: 50%;
   transform:translateX(-50%);
-  top: -5rem;
+  top: -100px;
   border-radius: 2rem;
   box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.2);
 }
@@ -196,7 +196,6 @@ main{
 /* -- Footer -- */
 footer{
   background-color: var(--very-Dark-Cyan);
-  position: relative;
 }
 .footer-container{
   max-width: var(--desktop);
@@ -204,6 +203,7 @@ footer{
   margin-inline: auto;
   padding-top: 8em;
   padding-bottom: 3em;
+  position: relative;
 }
 .footer-logo{
   width: 12rem;
